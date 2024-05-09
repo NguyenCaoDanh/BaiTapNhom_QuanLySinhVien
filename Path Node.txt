@@ -1,0 +1,13 @@
+07/11/2022
+App: Void Update_Insert: SinhVien_MonHoc,themLop,themMonHoc,themSinhVien
+Consolse : none
+08/11/2022
+Consolse:
++Void Insert : Lop , SinhVien , MonHoc , DangKy MonHoc
+09/11/2022
+Add :isValidDate()
+Consolse:
++Void Update : SinhVien,Lop,MonHoc,Hoc
+19/11/2022
+Repair: Update MonHoc
+DanhSach : set Table.Enable = false

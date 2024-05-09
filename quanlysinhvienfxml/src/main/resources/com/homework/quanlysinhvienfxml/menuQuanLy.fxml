@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="247.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.homework.controller.MenuQuanLyController">
+   <children>
+      <Label layoutX="48.0" layoutY="23.0" text="Insert &amp; Update" textFill="#d33535">
+         <font>
+            <Font name="Bodoni MT Black Italic" size="19.0" />
+         </font></Label>
+      <Label layoutX="278.0" layoutY="21.0" text="View" textFill="#cd4c4c">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Label>
+      <Button layoutX="250.0" layoutY="60.0" mnemonicParsing="false" onAction="#btDanhSachSV" prefHeight="26.0" prefWidth="96.0" text="Sinh Vien" textFill="#3807eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btInsert" layoutX="59.0" layoutY="60.0" mnemonicParsing="false" onAction="#btInsert" prefHeight="26.0" prefWidth="120.0" text="SinhVien" textFill="#3905eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btLop" layoutX="250.0" layoutY="98.0" mnemonicParsing="false" onAction="#btLop" prefHeight="26.0" prefWidth="96.0" text="Lop" textFill="#3807eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="themLop" layoutX="59.0" layoutY="98.0" mnemonicParsing="false" onAction="#themLop" prefHeight="26.0" prefWidth="120.0" text="ThemLop" textFill="#3807eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btMH" layoutX="250.0" layoutY="141.0" mnemonicParsing="false" onAction="#btMH" prefHeight="26.0" prefWidth="96.0" text="Mon Hoc" textFill="#3807eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="themMH" layoutX="59.0" layoutY="141.0" mnemonicParsing="false" onAction="#themMH" text="ThemMonHoc" textFill="#3807eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btHoc" layoutX="251.0" layoutY="185.0" mnemonicParsing="false" onAction="#btHoc" prefHeight="26.0" prefWidth="96.0" text="SV_MH" textFill="#3807eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="btDangKyMon" layoutX="59.0" layoutY="185.0" mnemonicParsing="false" onAction="#btDangKyMon" prefHeight="26.0" prefWidth="120.0" text="DangKyMon" textFill="#3807eb">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
